@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:orientation="vertical"
+    android:padding="@dimen/default_spacing_major" >
+
+    <com.abewy.android.extended.widget.TypefaceTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/showcase_title"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        ext:fontFamily="Roboto-Light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <com.abewy.android.extended.widget.TypefaceTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/default_spacing_major"
+            android:text="@string/showcase_swipe_left"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            ext:fontFamily="Roboto-Light" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/swipe_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/swipe_right" />
+
+        <com.abewy.android.extended.widget.TypefaceTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/default_spacing_major"
+            android:text="@string/showcase_swipe_right"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            ext:fontFamily="Roboto-Light" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/showcase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@android:color/transparent"
+        android:text="@string/ok"
+        android:textColor="@drawable/showcase_buttonm_text_color"
+        android:layout_marginRight="-16dp" />
+
+</LinearLayout>

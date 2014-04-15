@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/app_background</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar.Solid</item> 
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Apptheme</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.ActionBar.OverFlow</item>
+    </style>
+    
+    <style name="AppTheme.About" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/about_background</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Solid" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_background_textured</item>
+        
+        <!--<item name="android:background">@drawable/ab_solid</item>-->
+        <!--
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_example</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
+        -->
+    </style>
+    
+     <style name="DropDownNav.Apptheme" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_apptheme</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+</resources>

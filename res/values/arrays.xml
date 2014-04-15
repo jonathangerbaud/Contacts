@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Effects preferences -->
+    <string-array name="jazzy_effects">
+        <item>@string/standard</item>
+        <item>@string/tablet</item>
+        <item>@string/cube_in</item>
+        <item>@string/cube_out</item>
+        <item>@string/flip_horizontal</item>
+        <item>@string/flip_vertical</item>
+        <item>@string/stack</item>
+        <item>@string/zoom_in</item>
+        <item>@string/zoom_out</item>
+        <item>@string/rotate_up</item>
+        <item>@string/rotate_down</item>
+        <item>@string/accordion</item>
+    </string-array>
+    <string-array name="jazzy_effects_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="donate_labels">
+        <item>Donate 1 Euro</item>
+        <item>Donate 2 Euros</item>
+        <item>Donate 3 Euros</item>
+        <item>Donate 4 Euros</item>
+        <item>Donate 5 Euros</item>
+        <item>Donate 8 Euros</item>
+        <item>Donate 10 Euros</item>
+        <item>Donate 15 Euros</item>
+        <item>Donate 20 Euros</item>
+        <item>Donate 25 Euros</item>
+        <item>Donate 30 Euros</item>
+        <item>Donate 50 Euros</item>
+    </string-array>
+    <string-array name="donate_values">
+        <item>com.abewy.android.apps.contacts.donate_1</item>
+        <item>com.abewy.android.apps.contacts.donate_2</item>
+        <item>com.abewy.android.apps.contacts.donate_3</item>
+        <item>com.abewy.android.apps.contacts.donate_4</item>
+        <item>com.abewy.android.apps.contacts.donate_5</item>
+        <item>com.abewy.android.apps.contacts.donate_8</item>
+        <item>com.abewy.android.apps.contacts.donate_10</item>
+        <item>com.abewy.android.apps.contacts.donate_15</item>
+        <item>com.abewy.android.apps.contacts.donate_20</item>
+        <item>com.abewy.android.apps.contacts.donate_25</item>
+        <item>com.abewy.android.apps.contacts.donate_30</item>
+        <item>com.abewy.android.apps.contacts.donate_50</item>
+    </string-array>
+
+</resources>

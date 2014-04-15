@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="default_spacing_major">16dp</dimen>
+    <dimen name="default_spacing_minor">8dp</dimen>
+    <dimen name="default_spacing_micro">4dp</dimen>
+    <dimen name="body_text_size">18sp</dimen>
+    <!--<dimen name="body_line_spacing" format="float" type="dimen">1.0</dimen>-->
+    
+    <integer name="big_grid_columns">2</integer>
+    <integer name="medium_grid_columns">3</integer>
+    <integer name="small_grid_columns">4</integer>
+    
+    <!-- Help me -->
+    <dimen name="help_me_app_card_name_size">14sp</dimen>
+
+</resources>

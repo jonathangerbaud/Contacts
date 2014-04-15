@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:klyph="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory android:title="@string/preferences_ui_title" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="contacts_sort_by_last_name"
+            android:summary="@string/preference_ui_sort_by_last_name_summary"
+            android:title="@string/preference_ui_sort_by_last_name_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="contacts_rounded_pictures"
+            android:summary="@string/preference_ui_picture_style_summary"
+            android:title="@string/preference_ui_picture_style_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="contacts_list_grid_animation"
+            android:summary="@string/preference_ui_list_grid_effects_summary"
+            android:title="@string/preference_ui_list_grid_effects_title" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/jazzy_effects"
+            android:entryValues="@array/jazzy_effects_values"
+            android:key="contacts_effects"
+            android:summary="@string/preference_ui_effects_summary"
+            android:title="@string/preference_ui_effects_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_about_title" >
+        <PreferenceScreen
+            android:key="contacts_about"
+            android:title="@string/preference_about_title" />
+        <PreferenceScreen
+            android:key="contacts_help_me"
+            android:title="@string/action_help_me" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.abewy.android.apps.contacts.app.HelpMeActivity"
+                android:targetPackage="com.abewy.android.apps.contacts" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:persistent="false"
+            android:title="@string/preference_credits_title" >
+            <PreferenceCategory android:title="@string/preference_credits_apis_title" >
+                <Preference
+                    android:summary="Jeremy Feinstein"
+                    android:title="JazzyViewPager" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/jfeinstein10/JazzyViewPager" />
+                </Preference>
+                <Preference
+                    android:summary="Square"
+                    android:title="Picasso" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/square/picasso" />
+                </Preference>
+                <Preference
+                    android:summary="The Apache Software Foundation"
+                    android:title="Apache Commons Lang" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://commons.apache.org/proper/commons-lang/" />
+                </Preference>
+                <Preference
+                    android:summary="Niek Haarman"
+                    android:title="ListViewAnimations" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/nhaarman/ListViewAnimations" />
+                </Preference>
+                <Preference
+                    android:summary="Crashlytics"
+                    android:title="Crashlytics" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://www.crashlytics.com" />
+                </Preference>
+                <Preference
+                    android:summary="Google"
+                    android:title="Android Support Library v13" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://developer.android.com/tools/support-library/index.html" />
+                </Preference>
+                <Preference
+                    android:summary="Google"
+                    android:title="libphonenumber" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://code.google.com/p/libphonenumber/" />
+                </Preference>
+                <Preference
+                    android:summary="Sergej Shafarenka"
+                    android:title="pinned-section-listview" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://github.com/beworker/pinned-section-listview/" />
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_credits_tools_title" >
+                <Preference
+                    android:summary="Android Asset Studio / Jérôme Van Der Linden"
+                    android:title="Android Holo Colors Generator" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://android-holo-colors.com/" />
+                </Preference>
+                <Preference
+                    android:summary="Android Asset Studio / Jeff Gilfelt"
+                    android:title="Android Action Bar Style Generator" >
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://jgilfelt.github.io/android-actionbarstylegenerator/" />
+                </Preference>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="contacts_changelog"
+            android:title="@string/preference_changelog_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

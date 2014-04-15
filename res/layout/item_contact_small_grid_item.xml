@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.abewy.android.apps.contacts.widget.ProfileImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <com.abewy.android.extended.widget.TypefaceTextView
+            android:id="@+id/letter_text"
+            style="?android:attr/textAppearanceLargeInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:paddingBottom="16dp"
+            android:textStyle="bold"
+            ext:fontFamily="Roboto-Light" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#99000000" >
+
+        <com.abewy.android.extended.widget.TypefaceTextView
+            android:id="@+id/primary_text"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:lines="1"
+            android:paddingLeft="@dimen/default_spacing_micro"
+            android:paddingRight="@dimen/default_spacing_micro"
+            android:textColor="@android:color/white"
+            ext:fontFamily="Roboto-Light" />
+    </FrameLayout>
+
+</FrameLayout>

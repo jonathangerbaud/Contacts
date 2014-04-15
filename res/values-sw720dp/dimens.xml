@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="default_spacing_major">32dp</dimen>
+    <dimen name="body_text_size">20sp</dimen>
+    <!--<dimen name="body_line_spacing" format="float" type="dimen">1.2</dimen>-->
+
+</resources>

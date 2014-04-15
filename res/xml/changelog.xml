@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    
+    <release version="1.0.1" versioncode="5">
+        <change>Fixed some crashes</change>
+        <change>Fixed: Add a contact comes back to the app</change>
+        <change>Fixed: Clicking the action bar home button goes back to the main activity</change>
+        <change>Added: Groups</change>
+        <change>Updated: Filtering system</change>
+        <change>Added: Pinned section view to credits</change>
+        <change>Added: Icon to list/grid empy view</change>
+        <change>Added: Showcase on first launch</change>
+        <change>Added: Delete contact option</change>
+    </release>     
+    <release version="1.0.0" versioncode="4">
+        <change>Initial release</change>
+    </release>     
+</changelog>

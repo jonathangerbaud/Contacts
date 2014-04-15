@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/default_spacing_minor" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/card_background_light"
+            android:orientation="vertical"
+            android:padding="@dimen/default_spacing_minor" >
+            
+            <com.abewy.android.extended.widget.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/default_spacing_minor"
+                android:text="@string/help_me_title"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="22sp"
+                ext:fontFamily="Roboto-Light" />
+
+            <com.abewy.android.extended.widget.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/default_spacing_minor"
+                android:text="@string/help_me_text"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.2"
+                ext:fontFamily="Roboto-Light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_spacing_major"
+            android:background="@drawable/card_background_light"
+            android:orientation="vertical"
+            android:padding="@dimen/default_spacing_minor" >
+
+            <com.abewy.android.extended.widget.TypefaceTextView
+                android:id="@+id/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/donate"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="22sp"
+                ext:fontFamily="Roboto-Light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/default_spacing_minor"
+                android:paddingTop="@dimen/default_spacing_minor" >
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/donate_labels"
+                    android:prompt="@string/app_name"
+                    android:spinnerMode="dropdown" />
+
+                <ImageButton
+                    android:id="@+id/donate_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/default_spacing_minor"
+                    android:src="@drawable/ic_checkmark" />
+            </LinearLayout>
+
+            <com.abewy.android.extended.widget.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/donate_hint"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="12sp"
+                ext:fontFamily="Roboto-Light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/see_more_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/default_spacing_major"
+            android:background="@drawable/see_more_button"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/default_spacing_minor"
+            android:paddingRight="@dimen/default_spacing_minor" >
+
+            <com.abewy.android.extended.widget.TypefaceTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/my_apps"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="22sp"
+                ext:fontFamily="Roboto-Light" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:background="#00B3FF"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/default_spacing_minor"
+                android:paddingRight="@dimen/default_spacing_minor"
+                android:text="@string/see_more"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_spacing_micro"
+            android:baselineAligned="false"
+            android:divider="@drawable/transparent_divider_dim_minor"
+            android:dividerPadding="@dimen/default_spacing_minor"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <LinearLayout
+                android:id="@+id/klyph_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/app_card_background"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <com.abewy.android.extended.widget.SquareImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_app_klyph" />
+
+                <com.abewy.android.extended.widget.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:padding="@dimen/default_spacing_minor"
+                    android:text="Klyph for Facebook"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="@dimen/help_me_app_card_name_size"
+                    ext:fontFamily="Roboto-Light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/klyph_messenger_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/app_card_background"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <com.abewy.android.extended.widget.SquareImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_app_klyph_messenger" />
+
+                <com.abewy.android.extended.widget.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:padding="@dimen/default_spacing_minor"
+                    android:text="Klyph Messenger"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="@dimen/help_me_app_card_name_size"
+                    ext:fontFamily="Roboto-Light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/next_app_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/app_card_background"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <com.abewy.android.extended.widget.SquareImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_next_app" />
+
+                <com.abewy.android.extended.widget.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:padding="@dimen/default_spacing_minor"
+                    android:text="@string/my_next_app"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="@dimen/help_me_app_card_name_size"
+                    ext:fontFamily="Roboto-Light" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

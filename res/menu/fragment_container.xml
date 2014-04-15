@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_view_as"
+        android:icon="@drawable/ic_ab_view_as_list"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_view_as">
+        <menu>
+            <item android:id="@+id/action_view_as_list"
+                  android:icon="@drawable/ic_action_view_as_list"
+                  android:title="@string/action_view_as_list"
+                   />
+            <item android:id="@+id/action_view_as_big_grid"
+                  android:icon="@drawable/ic_action_view_as_big_grid"
+                  android:title="@string/action_view_as_big_grid"
+                   />
+            <item android:id="@+id/action_view_as_medium_grid"
+                  android:icon="@drawable/ic_action_view_as_medium_grid"
+                  android:title="@string/action_view_as_medium_grid"
+                   />
+            <item android:id="@+id/action_view_as_small_grid"
+                  android:icon="@drawable/ic_action_view_as_small_grid"
+                  android:title="@string/action_view_as_small_grid"
+                   />
+        </menu>
+    </item>
+
+</menu>

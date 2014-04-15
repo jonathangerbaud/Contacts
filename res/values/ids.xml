@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="view_holder" type="id"/>
+    <item name="image_uri_key" type="id"/>
+    
+    <item name="menu_add_favorite" type="id"/>
+    <item name="menu_remove_favorite" type="id"/>
+    <item name="menu_call" type="id"/>
+    <item name="menu_send_sms" type="id"/>
+    <item name="menu_send_email" type="id"/>
+    <item name="menu_starred" type="id"/>
+    <item name="menu_edit" type="id"/>
+    <item name="menu_delete" type="id"/>
+    
+    <item name="action_help_me" type="id"/>
+</resources>

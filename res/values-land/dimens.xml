@@ -1,0 +1,10 @@
+<resources>
+
+    <integer name="big_grid_columns">4</integer>
+    <integer name="medium_grid_columns">5</integer>
+    <integer name="small_grid_columns">6</integer>
+    
+    <!-- Help me -->
+    <dimen name="help_me_app_card_name_size">16sp</dimen>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ok">OK</string>
+    <string name="no">Non</string>
+    <string name="cancel">Annuler</string>
+    <string name="close">Fermer</string>
+    
+    <string name="title_all_contacts">Tous les contacts</string>
+    <string name="title_favorites">Favoris</string>
+    
+    <string name="action_settings">Paramètres</string>
+    <string name="action_add_contact">Ajouter contact</string>
+    <string name="action_search">Affichage</string>
+    <string name="action_view_as">Affichage</string>
+    <string name="action_view_as_list">Liste</string>
+    <string name="action_view_as_big_grid">Grille (grande)</string>
+    <string name="action_view_as_medium_grid">Grille (moyenne)</string>
+    <string name="action_view_as_small_grid">Grille (petite)</string>
+    <string name="action_help_me">Aidez-moi !</string>
+    
+    <string name="menu_call">Appeler</string>
+    <string name="menu_send_sms">Envoyer SMS</string>
+    <string name="menu_send_email">Envoyer e-mail</string>
+    <string name="menu_add_favorite">Ajouter aux favoris</string>
+    <string name="menu_remove_favorite">Supprimer des favorites</string>
+    <string name="menu_edit">Editer</string>
+	<string name="menu_delete">Supprimer</string>
+    
+    <string name="empty_list">C\'est vide ici !</string>
+    
+    <string name="search_hint">Rechercher des personnes</string>
+    
+    <string name="phone">Téléphone</string>
+    <string name="email">E-mail</string>    
+    
+    <!-- Preferences -->
+    <string name="preferences_ui_title">Interface</string>
+    <string name="preference_ui_picture_style_title">Avatars arrondis</string>
+    <string name="preference_ui_picture_style_summary">Si activé, les avatars seront en forme de rond</string>
+    <string name="preference_ui_effects_title">Effet de transition</string>
+    <string name="preference_ui_effects_summary">Choisir l\'effet de glissement</string>
+    <string name="preference_ui_sort_by_last_name_title">Trier par nom de famille</string>
+    <string name="preference_ui_sort_by_last_name_summary">Tri par défaut par prénom</string>
+    <string name="preference_ui_list_grid_effects_title">Animations sur les items de liste &amp; grille</string>
+    <string name="preference_ui_list_grid_effects_summary">Active les animations sur les listes et grilles</string>
+    <string name="preference_about_title">A propos</string>
+    <string name="preference_credits_title">Crédits</string>
+    <string name="preference_credits_apis_title">APIs</string>
+    <string name="preference_credits_tools_title">Outils</string>
+    <string name="preference_changelog_title">Change log</string>
+    
+    <!-- Jazzy effects -->
+    <string name="standard">Standard</string>
+    <string name="tablet">Tablette</string>
+    <string name="cube_in">Cube intérieur</string>
+    <string name="cube_out">Cube extérieur</string>
+    <string name="flip_vertical">Flip vertical</string>
+    <string name="flip_horizontal">Flip horizontal</string>
+    <string name="stack">Pile</string>
+    <string name="zoom_in">Zoom intérieur</string>
+    <string name="zoom_out">Zoom extérieur</string>
+    <string name="rotate_up">Rotation haut</string>
+    <string name="rotate_down">Rotation bas</string>
+    <string name="accordion">Accordéon</string>
+    
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_activity_title">A propos</string>
+    <string name="about_copyright">Copyright © %1$d Abewy</string>
+    <string name="about_all_rights_reserved">Tous droits réservés</string>
+    
+    <!-- InApp Billing -->
+    <string name="thank_you">Merci !</string>
+    <string name="thank_you_purchase">Merci beaucoup pour votre don !</string>
+    <string name="donate_again">Vous avez déjà donné ce montant. Voulez-vous encore faire un don ?</string>
+    
+    <!-- Help me -->
+    <string name="help_me_title">Aimez-vous mes applications ?</string>
+    <string name="help_me_text">Aimez-vous mes applications ?\nVoulez-vous que je crée de belles nouvelles applis ?\nSi c\'est le cas, s\'il vous plaît aidez-moi !\nJ\'ai décidé de ne pas utiliser le modèle freemium (payer pour avoir accès à certaines fonctionnalités) donc l\'application est totalement gratuite.\nUn petit don m\'aidera à continuer le développement de cette application et à en créer de nouvelles super géniales !</string>
+    <string name="my_next_app">Ma prochaine application</string>
+    <string name="donate">Faire un don</string>
+    <string name="donate_hint">En cliquant sur la case à cocher une boite de dialogue s\'ouvrira pour valider votre don. Vous pouvez faire plusieurs dons.</string>
+    <string name="my_apps">Mes applications</string>
+    <string name="see_more">En voir plus</string>
+    
+    <!-- Changelog -->
+    <string name="changelog">Changelog</string>
+
+    <!-- Showcase -->
+    <string name="showcase_title">Bienvenue sur Contacts</string>
+    <string name="showcase_swipe_left">Glissez vers la gauche pour voir vos contacts favoris et vos groupes</string>
+    <string name="showcase_swipe_right">Glissez vers la droite pour voir tous vos contacts</string>
+    
+    <!-- Contact details -->
+    <string name="delete_dialog_message">Ce contact sera supprimé</string>
+</resources>

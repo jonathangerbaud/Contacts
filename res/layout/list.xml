@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.hb.views.PinnedSectionListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/default_spacing_major"
+            android:paddingRight="@dimen/default_spacing_major"
+            android:clipToPadding="true"
+            android:scrollbarStyle="outsideInset"
+            android:fastScrollEnabled="true"
+            android:fastScrollAlwaysVisible="true"
+            android:drawSelectorOnTop="false"
+            android:divider="#DCDCDC"
+            android:dividerHeight="1dp" />
+    </FrameLayout>
+
+</FrameLayout>

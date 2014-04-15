@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="app_background">#E5E5E5</drawable>
+    <drawable name="about_background">#333333</drawable>
+    
+    <color name="color1">#CC0000</color>
+    <color name="color2">#0099CC</color>
+    <color name="color3">#AA66CC</color>
+    <color name="color4">#669900</color>
+    <color name="color5">#FF8800</color>
+    <color name="color6">#00CCAA</color>
+    <color name="color7">#00AACC</color>
+    <color name="color8">#990066</color>
+    <color name="color9">#990033</color><!-- Green Yellow -->
+    <color name="color10">#009966</color><!-- Green -->
+    <color name="color11">#009999</color><!-- Blue -->
+    <color name="color12">#4d9900</color><!-- Dark Green -->
+    <color name="color13">#990099</color><!-- Pink -->
+    <color name="color14">#ccaa00</color><!-- Yellow -->
+    <color name="color15">#aacc00</color><!-- Light Green -->
+    <color name="color16">#00cccc</color><!-- Light Blue -->
+</resources>

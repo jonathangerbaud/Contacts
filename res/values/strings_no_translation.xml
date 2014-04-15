@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Stuff to not translate -->
+    <string name="app_name">Contacts</string>
+    <string name="company_url">http://www.abewy.com</string>
+    <string name="google_plus_community_url">https://plus.google.com/communities/108701133516085969362</string>
+
+</resources>
